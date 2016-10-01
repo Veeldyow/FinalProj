@@ -50,7 +50,7 @@ public class Welcome extends Activity {
                         if (lr.equals("") && ud.equals(""))
                             moti.setText("");
                         else
-                            moti.setText("Moved "+lr+" and "+ud);
+                            moti.setText("moved "+lr+" and "+ud);
                         if (x1 < x2 && y1 > y2) q = "1";
                         else if (x1 > x2 && y1 > y2) q = "2";
                         else if (x1 < x2  && y1 < y2) q = "4";
