@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/spidey">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:id="@+id/iv"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/graph" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X1 , Y1 :"
+        android:id="@+id/textView8"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_below="@+id/iv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="..............."
+        android:id="@+id/first"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="X2, Y2 :"
+        android:layout_below="@+id/first"
+        android:layout_alignLeft="@+id/first"
+        android:layout_alignStart="@+id/first"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="..............."
+        android:id="@+id/seco"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Difference"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/seco"
+        android:layout_alignLeft="@+id/seco"
+        android:layout_alignStart="@+id/seco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="..............."
+        android:id="@+id/diff"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Motion :"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/diff"
+        android:layout_alignLeft="@+id/diff"
+        android:layout_alignStart="@+id/diff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="..............."
+        android:id="@+id/moti"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Qudrant :"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/moti"
+        android:layout_alignLeft="@+id/moti"
+        android:layout_alignStart="@+id/moti" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="..............."
+        android:id="@+id/quad"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+</RelativeLayout>

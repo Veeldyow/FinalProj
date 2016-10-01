@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/dead">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Firstname"
+        android:id="@+id/textView3"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_first"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Surname"
+        android:id="@+id/Textview"
+        android:layout_below="@+id/edit_first"
+        android:layout_alignLeft="@+id/edit_first"
+        android:layout_alignStart="@+id/edit_first" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_surname"
+        android:layout_below="@+id/Textview"
+        android:layout_alignLeft="@+id/edit_first" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/edit_surname"
+        android:layout_alignLeft="@+id/edit_surname"
+        android:layout_alignStart="@+id/edit_surname" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_user"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/edit_surname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/edit_user"
+        android:layout_alignLeft="@+id/edit_email"
+        android:layout_alignStart="@+id/edit_email" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_email"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/edit_email"
+        android:layout_alignLeft="@+id/edit_email"
+        android:layout_alignStart="@+id/edit_email" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_pass1"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/edit_email"
+        android:password="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Retype Password"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/edit_pass1"
+        android:layout_alignLeft="@+id/edit_email"
+        android:layout_alignStart="@+id/edit_email" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_pass2"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/edit_email"
+        android:password="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btn_register"
+        android:layout_below="@+id/edit_pass2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
