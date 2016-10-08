@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
    @Override
     protected  void onPause(){
         super.onPause();
+       super.finish();
     }
     public boolean check(){
         boolean valid = true;

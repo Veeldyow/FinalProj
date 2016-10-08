@@ -53,13 +53,12 @@ public class Register extends Activity{
                 }
             }
        });
-    }
 
+    }
     @Override
     public void onPause(){
         super.onPause();
-        super.finish();
-    }
+        super.finish();}
 
     public Boolean check(){
         String _first = first.getText().toString();
